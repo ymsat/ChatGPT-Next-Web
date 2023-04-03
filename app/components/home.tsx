@@ -113,7 +113,7 @@ export function Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>ChatGPT Next</div>
           <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
+            基于OpenAl API，服务器响应更快，效果更好
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
