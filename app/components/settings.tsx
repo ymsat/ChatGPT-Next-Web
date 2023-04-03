@@ -212,7 +212,7 @@ export function Settings(props: { closeSettings: () => void }) {
             {checkingUpdate ? (
               <div />
             ) : hasNewVersion ? (
-              <Link href={UPDATE_URL} target="_blank" className="link">
+              <Link href="https://blog.ohtoai.com" target="_blank" className="link">
                 {Locale.Settings.Update.GoToUpdate}
               </Link>
             ) : (
