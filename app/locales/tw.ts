@@ -109,6 +109,7 @@ Version: (x: string) => `運營：大戶愛`,
       },
       IsChecking: "正在檢查…",
       Check: "重新檢查",
+      NoAccess: "輸入API Key查看餘額",
     },
     AccessCode: {
       Title: "訪問碼",
