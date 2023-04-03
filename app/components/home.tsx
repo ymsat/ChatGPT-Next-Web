@@ -8,7 +8,7 @@ import { IconButton } from "./button";
 import styles from "./home.module.scss";
 
 import SettingsIcon from "../icons/settings.svg";
-import shangIcon from "../icons/shang.svg";
+import GithubIcon from "../icons/github.svg";
 import ChatGptIcon from "../icons/chatgpt.svg";
 
 import BotIcon from "../icons/bot.svg";
@@ -103,9 +103,9 @@ function _Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>ChatGPT Next Web</div>
+          <div className={styles["sidebar-title"]}>ChatGPT Next</div>
           <div className={styles["sidebar-sub-title"]}>
-            基于OpenAl API，服务器响应更快，效果更好
+            Build your own AI assistant.
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
@@ -145,8 +145,8 @@ function _Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href="https://afdian.net/a/ohtoai1" target="_blank">
-                <IconButton icon={<shangIcon />} shadow />
+              <a href={REPO_URL} target="_blank">
+                <IconButton icon={<GithubIcon />} shadow />
               </a>
             </div>
           </div>
