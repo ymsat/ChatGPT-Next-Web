@@ -111,7 +111,7 @@ export function Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>ChatGPT Next</div>
+          <div className={styles["sidebar-title"]}>ChatGPT Next Web</div>
           <div className={styles["sidebar-sub-title"]}>
             基于OpenAl API，服务器响应更快，效果更好
           </div>
