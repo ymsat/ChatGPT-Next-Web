@@ -6,7 +6,7 @@ import { IconButton } from "./button";
 import styles from "./home.module.scss";
 
 import SettingsIcon from "../icons/settings.svg";
-import GithubIcon from "../icons/github.svg";
+import QQIcon from "../icons/QQ.svg";
 import ChatGptIcon from "../icons/chatgpt.svg";
 
 import BotIcon from "../icons/bot.svg";
@@ -153,8 +153,8 @@ export function Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href={REPO_URL} target="_blank">
-                <IconButton icon={<GithubIcon />} shadow />
+              <a href="https://qm.qq.com/cgi-bin/qm/qr?k=Kav4gwwhJLFfuYzKOGnFlat4Uq5prCc3&jump_from=webapi&authKey=vHhtpbjksoMMVhoyvCX8mPuK+wl+EGqf/cJyhsIbFKbJb8lHopckc753W1XJM2yD" target="_blank">
+                <IconButton icon={<QQIcon />} shadow />
               </a>
             </div>
           </div>
