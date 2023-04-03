@@ -8,7 +8,7 @@ import { IconButton } from "./button";
 import styles from "./home.module.scss";
 
 import SettingsIcon from "../icons/settings.svg";
-import QQIcon from "../icons/QQ.svg";
+import shangIcon from "../icons/shang.svg";
 import ChatGptIcon from "../icons/chatgpt.svg";
 
 import BotIcon from "../icons/bot.svg";
@@ -145,8 +145,8 @@ function _Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href="https://qm.qq.com/cgi-bin/qm/qr?k=Kav4gwwhJLFfuYzKOGnFlat4Uq5prCc3&jump_from=webapi&authKey=vHhtpbjksoMMVhoyvCX8mPuK+wl+EGqf/cJyhsIbFKbJb8lHopckc753W1XJM2yD" target="_blank">
-                <IconButton icon={<QQIcon />} shadow />
+              <a href="https://afdian.net/a/ohtoai1" target="_blank">
+                <IconButton icon={<shangIcon />} shadow />
               </a>
             </div>
           </div>
