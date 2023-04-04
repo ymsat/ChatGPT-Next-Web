@@ -68,7 +68,7 @@ const cn = {
     },
 
     Update: {
-      Version: (x: string) => `运营：大户爱`,
+      Version: (x: string) => `运营：山东亿梦网络科技有限公司`,
       IsLatest: "已是最新版本",
       CheckUpdate: "检查更新",
       IsChecking: "Faiting...",
